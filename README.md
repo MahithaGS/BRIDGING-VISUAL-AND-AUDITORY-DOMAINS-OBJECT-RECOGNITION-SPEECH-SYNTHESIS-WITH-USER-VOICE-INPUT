@@ -5,36 +5,16 @@ This project enhances accessibility for visually impaired users by integrating r
 
 📌 Features
 
-✔ Real-time object detection using YOLO V8
-✔ Speech synthesis to describe detected objects
-✔ Voice input for hands-free operation
-✔ QR Code Audio Output for accessibility
-✔ Pre-trained models for fast inference
+✔ Real-time object detection using YOLO V8.
+✔ Speech synthesis to describe detected objects.
+✔ Voice input for hands-free operation.
+✔ QR Code Audio Output for accessibility.
+✔ Pre-trained models for fast inference.
 
 🏢 Project Structure
 
 Bridging-Visual-and-Auditory-Domains/
-│── README.md                # Project overview, setup instructions, and usage
-│── .gitignore               # Files to ignore in version control
-│── requirements.txt         # Dependencies (YOLOv8, OpenCV, gTTS, etc.)
-│── research_paper/
-│   └── Bridging_Visual_and_Auditory_Domains.pdf  
-│   └── Bridging_Visual_and_Auditory_Domains.docx  
-│── src/                     
-│   └── main.py              # Main script to run the model
-│   └── object_detection.py   # YOLO-based object detection
-│   └── speech_synthesis.py   # Converts text to speech
-│   └── voice_input.py        # Handles user voice commands
-│── models/                   
-│   └── yolov8_model.pth      # YOLO V8 model
-│   └── tts_model.pth         # Text-to-Speech model
-│── data/                    
-│   └── images/               # Test images
-│   └── audio/                # Generated audio files
-│── results/                  
-│   └── output_images/        # Detected objects with bounding boxes
-│   └── output_audio/         # Audio descriptions
-│── LICENSE                   
+                  
 
 🚀 Installation & Setup
 
@@ -57,7 +37,11 @@ Run Object Detection & Speech Synthesis
 
 python src/main.py
 
-This will:✔ Initiates on a Voice Command ✔ Capture an image using a camera 📷✔ Detect objects using YOLO V8 🎯✔ Convert detected objects into speech 🎧
+This will:
+```✔ Initiates on a Voice Command
+✔ Capture an image using a camera 📷
+✔ Detect objects using YOLO V8 🎯
+✔ Convert detected objects into speech 🎧```
 
 📊 Results & Performance
 
