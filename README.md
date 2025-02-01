@@ -85,4 +85,4 @@ Multi-language support 🌍
 
 📧 Contact
 
-For any questions, reach out to:✉ mahithags.23@example.com📍 [GitHub Profile](https://github.com/MahithaGS)
+For any questions, reach out to:✉ mahithags.23@example.com📍 GitHub Profile : https://github.com/MahithaGS
