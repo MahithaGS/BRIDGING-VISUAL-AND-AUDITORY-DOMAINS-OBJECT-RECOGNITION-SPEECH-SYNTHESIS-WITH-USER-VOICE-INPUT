@@ -22,12 +22,6 @@ Bridging-Visual-and-Auditory-Domains/
 │   ├── object_detection.py   # YOLO-based object detection
 │   ├── speech_synthesis.py   # Converts text to speech
 │   ├── voice_input.py        # Handles user voice commands     
-├── data/
-│   ├── coco/
-│   │   ├── annotations/
-│   │   ├── train/
-│   │   ├── test/            
-│   │   ├── va/
 ├── results/                  
 │   ├── output_images/        # Detected objects with bounding boxes
 │   ├── output_audio/         # Audio descriptions
