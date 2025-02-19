@@ -21,13 +21,13 @@ Bridging-Visual-and-Auditory-Domains/
 │   ├── main.py              # Main script to run the model
 │   ├── object_detection.py   # YOLO-based object detection
 │   ├── speech_synthesis.py   # Converts text to speech
-│   ├── voice_input.py        # Handles user voice commands
-├── models/                   
-│   ├── yolov8_model.pth      # YOLO V8 model
-│   ├── tts_model.pth         # Text-to-Speech model
-├── data/                    
-│   ├── images/               # Test images
-│   ├── audio/                # Generated audio files
+│   ├── voice_input.py        # Handles user voice commands     
+├── data/
+│   ├── coco/
+│   │   ├── annotations/
+│   │   ├── train/
+│   │   ├── test/            
+│   │   ├── va/
 ├── results/                  
 │   ├── output_images/        # Detected objects with bounding boxes
 │   ├── output_audio/         # Audio descriptions
